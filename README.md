@@ -1,6 +1,6 @@
 # zulu-openjdk
 
-Dockerfile for a minimal free jdk. It uses busybox as tiny linux distro and Azul zulu as jdk. The code is taken from peelsky/zulu-openjdk-busybox, but this one includes 8u40. For previous versions, please refer to [https://registry.hub.docker.com/u/peelsky/zulu-openjdk-busybox/](peelsky/zulu-openjdk-busybox). For a minimal (Oracle) jre only, check out [https://registry.hub.docker.com/u/cloudunder/java-runtime/](cloudunder/java-runtime).
+Dockerfile for a minimal free jdk. It uses busybox as tiny linux distro and Azul zulu as jdk. The code is taken from peelsky/zulu-openjdk-busybox, but this one includes 8u40. For previous versions, please refer to [peelsky/zulu-openjdk-busybox](https://registry.hub.docker.com/u/peelsky/zulu-openjdk-busybox/). For a minimal (Oracle) jre only, check out [cloudunder/java-runtime](https://registry.hub.docker.com/u/cloudunder/java-runtime/).
 
 ## Image sizes
 
