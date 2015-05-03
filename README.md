@@ -27,5 +27,7 @@ simplexsys/zulu-openjdk        8u40               182.8 MB
 
 ## Usage
 
+```
 docker run -it --rm simplexsys/zulu-openjdk:8u40 java -version
 docker run -it --rm simplexsys/zulu-openjdk:latest java -version
+```
