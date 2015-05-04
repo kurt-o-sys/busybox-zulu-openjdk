@@ -6,7 +6,7 @@ ENV ZULU_BUILD 8.6.0.1
 ENV ZULU_BUILD_DATE 2015-03-8.6
 ENV ZULU_FULL_NAME zulu${JAVA_VERSION}-${ZULU_BUILD}-x86lx64
 
-RUN opkg-install curl
+RUN opkg-install curl bash
 
 RUN (curl -e http://www.azulsystems.com/products/zulu/downloads\#Linux -o /tmp/jdk.zip http://cdn.azulsystems.com/zulu/${ZULU_BUILD_DATE}-bin/${ZULU_FULL_NAME}.zip &&\
     unzip -q /tmp/jdk.zip -d /opt &&\
