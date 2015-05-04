@@ -1,4 +1,4 @@
-FROM simplexsys/busybox-cli-powered
+FROM simplexsys/busybox-cli-powered:latest
 MAINTAINER qsys <kurt.sys@gmail.com>
 
 ENV JAVA_VERSION 1.8.0_40
